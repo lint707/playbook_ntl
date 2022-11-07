@@ -5,19 +5,19 @@ all:
       hosts:
         centos7:
           ansible_connection: ssh
-          ansible_host: 158.160.2.172
+          ansible_host: 158.160.18.238
     vector:
       hosts:
         centos7:
           ansible_connection: ssh
-          ansible_host: 158.160.2.172
+          ansible_host: 158.160.18.238
     lighthouse:
       hosts:
         centos7:
           ansible_connection: ssh
-          ansible_host: 158.160.2.172
+          ansible_host: 158.160.18.238
     nginx:
       hosts:
         centos7:
           ansible_connection: ssh
-          ansible_host: 158.160.2.172
+          ansible_host: 158.160.18.238
