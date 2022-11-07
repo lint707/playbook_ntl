@@ -4,20 +4,16 @@ all:
     clickhouse:
       hosts:
         centos7:
-          ansible_connection: ssh
-          ansible_host: 158.160.18.238
+          ansible_host: 127.0.0.1
     vector:
       hosts:
         centos7:
-          ansible_connection: ssh
-          ansible_host: 158.160.18.238
+          ansible_host: 127.0.0.1
     lighthouse:
       hosts:
         centos7:
-          ansible_connection: ssh
-          ansible_host: 158.160.18.238
+          ansible_host: 127.0.0.1
     nginx:
       hosts:
         centos7:
-          ansible_connection: ssh
-          ansible_host: 158.160.18.238
+          ansible_host: 127.0.0.1
