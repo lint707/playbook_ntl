@@ -4,16 +4,16 @@ all:
     clickhouse:
       hosts:
         centos7:
-          ansible_host: 127.0.0.1
+          ansible_connection: local
     vector:
       hosts:
         centos7:
-          ansible_host: 127.0.0.1
+          ansible_connection: local
     lighthouse:
       hosts:
         centos7:
-          ansible_host: 127.0.0.1
+          ansible_connection: local
     nginx:
       hosts:
         centos7:
-          ansible_host: 127.0.0.1
+          ansible_connection: local
